@@ -1,21 +1,121 @@
-# BIG-DATA-ANALYSIS
+# 📊 BIG-DATA-ANALYSIS
 
-Company Name :- CODTECH IT SOLUTIONS
-
-Name :- DOBARIYA HETVI RAMESHBHAI
-
-Intern ID :- CTIS4315
-
-Domain Name :- Data Analytics
-
-Duration :- 4 Weeks
-
-Mentor :- NEELA SANTHOSH
-
-OUTPUT :-
+# OUTPUT 
   
 https://dbc-46a6afab-0aa0.cloud.databricks.com/browse/folders/100537641622739?o=7474649941754869
 
-Discription :-
+#  🚀 Project Overview
 
-              "This project focuses on performing large-scale data analysis using PySpark on the Databricks platform, with the objective of extracting meaningful insights from a real-world dataset. The dataset used for this task is insta_usage_life_style.csv, which contains information related to Instagram usage patterns and lifestyle behaviors of users. With the growing influence of social media on daily life, analyzing such data helps understand user engagement, habits, and their possible impact on lifestyle.The project was implemented in Databricks, a cloud-based big data analytics platform that provides a collaborative environment for running Apache Spark workloads efficiently. Databricks was chosen because of its scalability, ease of use, and seamless integration with PySpark, making it suitable for handling large datasets and performing distributed data processing.The first step of the project involved loading the CSV dataset into Databricks using PySpark’s DataFrame API. Once the data was loaded, initial data exploration was performed to understand the structure of the dataset, including column names, data types, and sample records. This helped in identifying key attributes related to Instagram usage, such as time spent, frequency of use, lifestyle indicators, and behavioral patterns.Next, data cleaning and preprocessing were carried out to ensure data quality. This included handling missing or null values, removing inconsistencies, and converting columns into appropriate data types for analysis. PySpark functions such as dropna(), fillna(), and column transformations were used to prepare the dataset for further processing. Proper preprocessing was crucial to ensure accurate and reliable analysis results.After preprocessing, exploratory data analysis (EDA) was conducted using PySpark operations. Various transformations and actions such as filtering, grouping, aggregation, and sorting were applied to uncover patterns and trends in Instagram usage. For example, the dataset was analyzed to understand usage frequency, lifestyle correlations, and differences in user behavior across different categories. Aggregate functions like count(), avg(), sum(), and groupBy() were used extensively to derive insights.The project also leveraged Spark’s distributed computing capabilities, allowing efficient processing of large volumes of data with improved performance compared to traditional single-machine analysis. This demonstrated the advantage of using PySpark for big data analytics, especially when working with large datasets.In conclusion, this project successfully demonstrated the use of Big Data analytics using PySpark on Databricks to analyze social media usage data. The analysis provided valuable insights into Instagram usage and lifestyle patterns while showcasing practical skills in data loading, preprocessing, analysis, and distributed computing. This task strengthened understanding of big data tools and highlighted the importance of scalable data processing in modern data-driven applications."
+This project demonstrates large-scale data analysis using PySpark on the Databricks platform. The objective of this project was to analyze the dataset insta_usage_life_style.csv to uncover patterns and insights related to Instagram usage behavior and lifestyle trends.
+
+With the growing influence of social media on daily life, this project focuses on understanding user engagement patterns, screen time distribution, and potential correlations between social media usage and lifestyle indicators using distributed data processing techniques.
+
+# 🎯 Objectives
+
+Perform scalable data analysis using PySpark.
+
+Clean and preprocess real-world CSV data.
+
+Conduct exploratory data analysis (EDA).
+
+Identify trends and behavioral patterns in Instagram usage.
+
+Leverage Databricks for efficient distributed computation.
+
+🛠️ Technologies Used
+
+Apache Spark (PySpark)
+
+Databricks
+
+Python
+
+CSV Dataset
+
+# 📂 Dataset Information
+
+File Name: insta_usage_life_style.csv
+
+The dataset contains information about:
+
+Instagram usage frequency
+
+Time spent on the platform
+
+Lifestyle-related attributes
+
+Behavioral indicators
+
+# ⚙️ Project Workflow
+
+1️⃣ Data Ingestion
+
+Uploaded CSV dataset to Databricks.
+
+Loaded data using PySpark DataFrame API.
+
+Verified schema and column structure.
+
+2️⃣ Data Cleaning & Preprocessing
+
+Handled missing/null values using dropna() and fillna()
+
+Removed duplicates
+
+Converted data types where necessary
+
+Applied filtering and transformation operations
+
+3️⃣ Exploratory Data Analysis (EDA)
+
+Generated descriptive statistics using describe() and summary()
+
+Performed grouping and aggregation using:
+
+groupBy()
+
+count()
+
+avg()
+
+sum()
+
+Identified usage patterns and behavioral trends
+
+4️⃣ Insights Generation
+
+Analyzed average time spent on Instagram.
+
+Compared high-usage vs low-usage user groups.
+
+Explored correlations between screen time and lifestyle attributes.
+
+Identified behavioral patterns across different user segments.
+
+# 📈 Key Insights
+
+Clear variation observed in user engagement levels.
+
+High-usage users showed distinct lifestyle trends compared to moderate users.
+
+Data revealed patterns in frequency and duration of Instagram usage.
+
+Distributed computing significantly improved processing efficiency.
+
+# 🧠 Learning Outcomes
+
+Hands-on experience with PySpark DataFrame operations.
+
+Understanding of distributed data processing using Spark.
+
+Practical exposure to Databricks cloud environment.
+
+Strengthened skills in data cleaning, transformation, and analysis.
+
+Applied big data concepts to a real-world dataset.
+
+# 📌 Conclusion
+
+This project successfully demonstrates how Big Data technologies like PySpark and Databricks can be used to process and analyze large datasets efficiently. The workflow highlights end-to-end data processing — from ingestion and cleaning to analysis and insights generation — making it a strong foundation project for Big Data Analytics roles.
+
+
